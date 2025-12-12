@@ -11,6 +11,9 @@ Trajectory similarity is central to many problems in movement analysis (clusteri
 Key contributions
 -----------------
 - **FLCSS** — a fuzzy extension of Longest Common Subsequence that replaces hard thresholds with fuzzy membership for point matching, increasing robustness to noise and sampling-rate changes. In this method, instead of a binary “within-threshold” rule, distance between points is converted to a membership degree using fuzzy membership functions. This degree quantifies how well two points match.
+
+! [test] (fuzzyPointMatching.jpg)
+
 - **FTSM** — a composite fuzzy trajectory similarity measure that integrates point-level fuzzy matching, contextual features, and an aggregation rule to produce an overall similarity score. Detailed evaluation and sensitivity analysis are included in the thesis.
 - Extensive experiments: synthetic and real trajectories, controlled noise, sampling-rate variation, and several baseline comparisons (LCSS, DTW, EDR, ERP, Fréchet, Hausdorff).
 
